@@ -20,10 +20,7 @@ namespace Tree
 
                 Console.Write(new string('*', currentRow + (currentRow - 1)));
 
-                for (int rightWhiteSpace = currentRow; rightWhiteSpace < rowsToPrint; rightWhiteSpace++)
-                {
-                    Console.Write(" ");
-                }
+                Console.WriteLine("\n");
 
                 if (currentRow == rowsToPrint)
                     reduce = true;
