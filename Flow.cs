@@ -20,7 +20,7 @@ namespace Tree
 
                 Console.Write(new string('*', currentRow + (currentRow - 1)));
 
-                Console.WriteLine("\n");
+                Console.WriteLine("");
 
                 if (currentRow == rowsToPrint)
                     reduce = true;
@@ -30,8 +30,6 @@ namespace Tree
 
                 else
                     currentRow--;
-                Console.WriteLine();
             }
         }
-    }
 }
